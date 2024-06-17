@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="properties-with-spring-and-spring-boot" />
-        <module name="guide-to-configurationproperties-in-springboot" />
+        <module name="using-applicationyml-applicationproperties-in-springboot" />
         <module name="automatic-property-expansion-with-springboot" />
+        <module name="guide-to-configurationproperties-in-springboot" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
       <module name="automatic-property-expansion-with-springboot" options="-parameters" />
       <module name="guide-to-configurationproperties-in-springboot" options="-parameters" />
       <module name="properties-with-spring-and-spring-boot" options="-parameters" />
+      <module name="using-applicationyml-applicationproperties-in-springboot" options="-parameters" />
     </option>
   </component>
 </project>
