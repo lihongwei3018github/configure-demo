@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="properties-with-spring-and-spring-boot" />
         <module name="guide-to-configurationproperties-in-springboot" />
+        <module name="automatic-property-expansion-with-springboot" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="automatic-property-expansion-with-springboot" options="-parameters" />
       <module name="guide-to-configurationproperties-in-springboot" options="-parameters" />
       <module name="properties-with-spring-and-spring-boot" options="-parameters" />
     </option>

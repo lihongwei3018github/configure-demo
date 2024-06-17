@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/properties-with-spring-and-spring-boot/pom.xml" />
         <option value="$PROJECT_DIR$/guide-to-configurationproperties-in-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/automatic-property-expansion-with-springboot/pom.xml" />
       </list>
     </option>
   </component>
